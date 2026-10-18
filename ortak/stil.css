@@ -138,3 +138,8 @@ ul.blok li { margin: 6px 0; }
   header.ust .logo { font-size: 16px; }
   .dil { position: absolute; right: 12px; top: 8px; }
 }
+/* ozellik sayfasi: ekran goruntusu (telefon dikey cekimi, kucultulmus kopya) */
+figure.ekran { margin: 10px 0; display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-start; }
+figure.ekran img { width: 240px; max-width: 46%; height: auto; border: 1px solid var(--frame-edge); border-radius: 10px; }
+figure.ekran figcaption { flex-basis: 100%; color: var(--muted); font-size: 13px; }
+p.alt { color: var(--muted); }
